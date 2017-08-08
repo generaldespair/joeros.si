@@ -37,6 +37,6 @@ paginate = "10"
     # Enable "Social" widget, if any of "social_*" set a value
 #    social_facebook = "username"
     social_twitter = "GeneralDespair"
-    social_linkedin = "username"
+    social_linkedin = "josepharossi"
     social_github = "generaldespair"
     social_email = "josepharossi@gmail.com"
