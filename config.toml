@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Joe Rossi"
+theme = "mainroad"
+paginate = "10"
+#disqusShortname = "" # Enable comments by entering your Disqus shortname
+#googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+
+[Author]
+    name = "Joe Rossi"
+    bio = "Nothing to say about me yet."
+    avatar = "img/avatar.png"
+
+
+[Params]
+    subtitle = "Just another site" # Subtitle of your site
+    description = " John Doe's Personal blog about everything" # Description of your site
+    opengraph = true
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+    postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+    #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+    #dateformat = "2006-01-02" # change the format of dates
+
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent articles" widget
+    recent_articles_num = 10 # Set the number of articles in the "Recent articles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+    # Enable "Social" widget, if any of "social_*" set a value
+#    social_facebook = "username"
+    social_twitter = "GeneralDespair"
+    social_linkedin = "username"
+    social_github = "generaldespair"
+    social_email = "josepharossi@gmail.com"
