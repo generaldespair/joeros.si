@@ -1,7 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Joe Rossi"
-theme = "mainroad"
+theme = "Mainroad"
 paginate = "10"
 #disqusShortname = "" # Enable comments by entering your Disqus shortname
 #googleAnalytics = "" # Enable Google Analytics by entering your tracking id
@@ -9,17 +9,17 @@ paginate = "10"
 
 [Author]
     name = "Joe Rossi"
-    bio = "Nothing to say about me yet."
+    bio = "Stuff about me...I hate talking about myself."
     avatar = "img/avatar.png"
 
 
 [Params]
-    subtitle = "Just another site" # Subtitle of your site
-    description = " John Doe's Personal blog about everything" # Description of your site
+    subtitle = "Ramblings of an autodidact" # Subtitle of your site
+    description = "Ramblings of an autodidact" # Description of your site
     opengraph = true
     readmore = false # Show "Read more" button in list if true
     leftsidebar = false # Move sidebar to the left side if true
-    authorbox = true
+    authorbox = false
     post_navigation = true
     postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
     #postSections = ["blog", "news"] # alternative that shows more than one section's pages
