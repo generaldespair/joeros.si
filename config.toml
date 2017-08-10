@@ -46,14 +46,10 @@ copyright = "Joe Rossi"
     identifier = "project"
     url = "/project/"
     weight = 2
-#[[menu.main]]
-#    name = "ADD"
-#    parent = "project"
-#    url = "/project/add"
-#[[menu.main]]
-#    name = "Contact"
-#    url = "/page/contact/"
-#    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
 
 [[menu.main]]
     name = "About"
