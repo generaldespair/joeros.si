@@ -1,42 +1,61 @@
-baseURL = "/"
+baseurl = "/"
+title = "An Autodidact's Dielmma"
+theme = "ghostwriter"
 languageCode = "en-us"
-title = "Joe Rossi"
-theme = "Mainroad"
-paginate = "10"
-#disqusShortname = "" # Enable comments by entering your Disqus shortname
-#googleAnalytics = "" # Enable Google Analytics by entering your tracking id
-
+copyright = "Joe Rossi"
+#googleAnalytics = "XXX"
+#disqusShortname = "XXX"
 
 [Author]
     name = "Joe Rossi"
-    bio = "Stuff about me...I hate talking about myself."
-    avatar = "img/avatar.png"
+#    profile = "https://google.com/+XXX"
 
+[Taxonomies]
+    tag = "tags"
 
 [Params]
-    subtitle = "Ramblings of an autodidact" # Subtitle of your site
-    description = "Ramblings of an autodidact" # Description of your site
+    intro = true
+    headline = "An Autodidact's Dilemma"
+    description = "The meanderings of my infosec education sprinkled with my other interests"
+    github = "https://github.com/generaldespair"
+#    gitlab = "https://gitlab.com/XXX"
+    linkedin = "https://linkedin.com/in/josepharossi/"
+#    gplus = "https://google.com/+XXX"
+    twitter = "https://twitter.com/generaldespair"
+#    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    email = "josepharossi@gmail.com"
     opengraph = true
-    readmore = false # Show "Read more" button in list if true
-    leftsidebar = false # Move sidebar to the left side if true
-    authorbox = false
-    post_navigation = true
-    postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
-    #postSections = ["blog", "news"] # alternative that shows more than one section's pages
-    #dateformat = "2006-01-02" # change the format of dates
+    shareTwitter = true
+#    shareFacebook = true
+#    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
 
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
 
-[Params.widgets]
-    search = true # Enable "Search" widget
-    recent_articles = true # Enable "Recent articles" widget
-    recent_articles_num = 10 # Set the number of articles in the "Recent articles" widget
-    categories = true # Enable "Categories" widget
-    tags = true # Enable "Tags" widget
-    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
 
-    # Enable "Social" widget, if any of "social_*" set a value
-#    social_facebook = "username"
-    social_twitter = "GeneralDespair"
-    social_linkedin = "josepharossi"
-    social_github = "generaldespair"
-    social_email = "josepharossi@gmail.com"
+[[menu.main]]
+    name = "Projects"
+    identifier = "project"
+    url = "/project/"
+    weight = 2
+#[[menu.main]]
+#    name = "ADD"
+#    parent = "project"
+#    url = "/project/add"
+#[[menu.main]]
+#    name = "Contact"
+#    url = "/page/contact/"
+#    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
